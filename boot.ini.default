@@ -1,0 +1,11 @@
+[general]
+#This configuration is parsed by the bootini-persistence script
+#uncomment the section you want to override in boot.ini and set the desired value
+
+####################
+# N2 configuration #
+####################
+
+#N2 resolution
+#hdmimode=1080p60hz
+
