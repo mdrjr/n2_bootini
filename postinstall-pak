@@ -6,6 +6,8 @@ cp /media/boot/boot.ini /media/boot/boot.ini.old
 cp /usr/share/bootini/boot.ini /media/boot/boot.ini
 cp /media/boot/config.ini /media/boot/config.ini.old
 cp /usr/share/bootini/config.ini /media/boot/config.ini
+cp /usr/share/bootini/default.pa /etc/pulse/default.pa
+
 
 #/usr/sbin/update-initramfs -c -k `uname -r`
 #mkimage -A arm64 -O linux -T ramdisk -C none -a 0 -e 0 -n "uInitrd" -d /boot/initrd.img-`uname -r` /boot/uInitrd-`uname -r`

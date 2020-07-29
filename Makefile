@@ -5,4 +5,5 @@ install:
 	install 10-odroid.rules /etc/udev/rules.d
 	install -m 0664 odroid-tweaks.service /etc/systemd/system/
 	install -m 0755 odroid-tweaks /bin
-	
+	install default.pa /usr/share/bootini
+		
